@@ -1,6 +1,6 @@
 {
   "name": "http-auth-utils-hperrin",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Parse, build and deal with HTTP authorization headers.",
   "main": "dist/index",
   "module": "dist/index.mjs",

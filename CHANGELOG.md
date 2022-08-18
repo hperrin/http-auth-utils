@@ -1,3 +1,34 @@
+## 3.0.4 (2022-08-18)
+
+
+### Bug Fixes
+
+* **Root modules:** Fix exportation of root modules ([0ae79ee](https://github.com/nfroidure/http-auth-utils/commit/0ae79eead561ddd000c9bdff4b43bf6ab0081ef1))
+* **src/utils.ts:** handle parsing non-quoted values in authenticate header ([772608e](https://github.com/nfroidure/http-auth-utils/commit/772608e037da2385e1f6ba5035146ab4d945af6b)), closes [#10](https://github.com/nfroidure/http-auth-utils/issues/10)
+* **src/utils.ts:** handle parsing quoted values with equal signs ([9084c16](https://github.com/nfroidure/http-auth-utils/commit/9084c16ef2267816b1a8310f2bf2581eda89da22)), closes [#17](https://github.com/nfroidure/http-auth-utils/issues/17)
+
+
+### Code Refactoring
+
+* **types:** convert code to typescript ([0b7f30b](https://github.com/nfroidure/http-auth-utils/commit/0b7f30be45c0e79f83115515091f85f68dc3e98d)), closes [#4](https://github.com/nfroidure/http-auth-utils/issues/4)
+* **Typo:** Fix the mechanism typo ([d2ebdde](https://github.com/nfroidure/http-auth-utils/commit/d2ebddef91e208714a58cb34afbc0a869ca919f2))
+
+
+### Features
+
+* **buildAuthorizationHeader:** dd a way to build Authorization headers too ([1294584](https://github.com/nfroidure/http-auth-utils/commit/1294584fd8157c3e92d68dd3aa068e9f1f93ecdf))
+* **buildWWWAuthenticateHeader:** Add a way to build WWW Authenticate headers too ([cc51ac1](https://github.com/nfroidure/http-auth-utils/commit/cc51ac17575db82b9ed53a5537c8f9e3173e5961))
+* **parsers:** allow to parse header less strictly ([060c805](https://github.com/nfroidure/http-auth-utils/commit/060c8054a9a074ec376318a9ac49771233f3a89d))
+* **Types:** Add TypeScript types ([9f5d413](https://github.com/nfroidure/http-auth-utils/commit/9f5d4130a6a9c36aa20a102e4efa37c798bc9220))
+
+
+### BREAKING CHANGES
+
+* **types:** Last supported LTS
+* **Typo:** The mechanism word replaced the bad mecanism one everywhere
+
+
+
 ## [3.0.3](https://github.com/nfroidure/http-auth-utils/compare/v3.0.2...v3.0.3) (2022-05-25)
 
 
