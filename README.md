@@ -14,6 +14,19 @@
 
 [//]: # (::contents:start)
 
+# WAIT!
+
+This package only exists because [hperrin](https://github.com/hperrin) needs a
+version with this bug fixed:
+
+https://github.com/nfroidure/http-auth-utils/issues/17
+
+If you click that link, and the bug has been fixed in the upstream version, it
+means this package is OBSOLETE! Use the
+[upstream version](https://www.npmjs.com/package/http-auth-utils) instead.
+
+# Ok, now for the actual readme...
+
 This library provide several utilities to parse and build WWW-Authenticate and
 Authorization headers as described per the HTTP RFC.
 
