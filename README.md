@@ -4,10 +4,10 @@
 [//]: # (`content:start/end` flags, your changes would)
 [//]: # (be overridden.)
 [//]: # ( )
-# http-auth-utils
+# http-auth-utils-hperrin
 > Parse, build and deal with HTTP authorization headers.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nfroidure/http-auth-utils/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nfroidure/http-auth-utils-hperrin/blob/master/LICENSE)
 [![Build status](https://travis-ci.com/nfroidure/http-auth-utils.svg?branch=master)](https://travis-ci.com/github/nfroidure/http-auth-utils)
 [![Coverage Status](https://coveralls.io/repos/github/nfroidure/http-auth-utils/badge.svg?branch=master)](https://coveralls.io/github/nfroidure/http-auth-utils?branch=master)
 
@@ -689,6 +689,7 @@ assert.equal(
 # Authors
 - [Nicolas Froidure](https://insertafter.com/en/index.html)
 - [Jake Pruitt](https://github.com/jakepruitt)
+- [Hunter Perrin](https://github.com/hperrin)
 
 # License
-[MIT](https://github.com/nfroidure/http-auth-utils/blob/master/LICENSE)
+[MIT](https://github.com/nfroidure/http-auth-utils-hperrin/blob/master/LICENSE)

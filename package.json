@@ -85,14 +85,15 @@
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-typescript": "^7.17.12",
     "@babel/register": "^7.17.7",
-    "@types/jest": "^27.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.26.0",
-    "@typescript-eslint/parser": "^5.26.0",
+    "@types/jest": "^28.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
     "commitizen": "^4.2.4",
     "conventional-changelog-cli": "^2.2.2",
     "coveralls": "^3.1.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.16.0",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "^28.1.0",
     "jsarch": "^5.0.1",
@@ -109,7 +110,7 @@
     "yerror": "^6.0.2"
   },
   "engines": {
-    "node": ">=12.19.0"
+    "node": ">=16.15.0"
   },
   "config": {
     "commitizen": {
@@ -123,7 +124,9 @@
       "conventional-changelog-cli",
       "eslint",
       "eslint-config-prettier",
+      "eslint-plugin-prettier",
       "prettier",
+      "@typescript-eslint/eslint-plugin",
       "@typescript-eslint/parser",
       "@babel/cli",
       "@babel/core",
@@ -163,6 +166,7 @@
   "eslintConfig": {
     "extends": [
       "eslint:recommended",
+      "plugin:prettier/recommended",
       "plugin:@typescript-eslint/eslint-recommended",
       "plugin:@typescript-eslint/recommended"
     ],
@@ -206,7 +210,7 @@
         "@babel/env",
         {
           "targets": {
-            "node": "12.19.0"
+            "node": "16.15.0"
           }
         }
       ]
